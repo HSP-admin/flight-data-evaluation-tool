@@ -199,7 +199,7 @@ class EvaluationWindow(customtkinter.CTkToplevel):
         self.total_score_label.pack(side="left", pady=15, padx=(15, 10))
 
         # Only show grading button with secret keyboard shortcut
-        self.bind_all("<Shift-G>", self.show_grading_button)  # Ctrl+Shift+G
+        self.bind_all("<Shift-G>", self.show_grading_button)  # Shift+G
 
         self.calculate_score_button = customtkinter.CTkButton(
             master=self,

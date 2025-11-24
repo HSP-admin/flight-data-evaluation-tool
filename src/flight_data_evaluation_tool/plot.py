@@ -493,8 +493,8 @@ def create_heatmaps(flight_data: pd.DataFrame, phases: list):
         ax.set_xticks(x_ticks)
         ax.set_yticks(y_ticks)
 
-        ax.set_xlabel("Trans. Offset Z", loc="right")
-        ax.set_ylabel("Trans. Offset Y", loc="bottom")
+        ax.set_xlabel("Trans. Offset Z (m)", loc="right")
+        ax.set_ylabel("Trans. Offset Y (m)", loc="bottom")
 
         ax.set_aspect("equal")
 
